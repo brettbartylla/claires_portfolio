@@ -1,0 +1,19 @@
+{
+  "name": "Claire_Portfolio_Final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server",
+    "start": "parallelshell \"npm run scss && npm run scss -- -w\" \"npm run serve\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parallelshell": "^3.0.2",
+    "sass": "^1.36.0"
+  },
+  "dependencies": {},
+  "description": ""
+}
