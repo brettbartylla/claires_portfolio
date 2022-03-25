@@ -6,6 +6,7 @@
 .pos-absolute {
   position: absolute;
 }
+
 .pos-relative {
   position: relative;
 }
@@ -13,20 +14,25 @@
 .float-left {
   float: left;
 }
+
 .v-bottom {
   display: inline-block;
   vertical-align: bottom;
   float: none !important;
 }
+
 .push-down {
   margin-top: 23%;
 }
+
 .push-down-less {
   margin-top: 13%;
 }
+
 .img-left-marg {
   margin-left: 5%;
 }
+
 .img-edit {
   margin-top: -6%;
 }
@@ -83,11 +89,13 @@ p {
 .more {
   white-space: nowrap;
 }
+
 .more,
 .smile-case,
 .less {
   font-size: 60px !important;
 }
+
 .marquee__inner {
   width: fit-content;
   display: flex;
@@ -110,4 +118,18 @@ p {
 
 .p-no-top {
   margin-top: 0;
+}
+
+.resize-nice {
+  width: 960px;
+  height: 540px;
+  padding-left: 5px;
+}
+
+.web{
+   filter: drop-shadow(0 0.4rem 0.3rem rgba(0, 0, 0, 0.4));
+}
+
+.resize-smaller{
+  width:96%;
 }
